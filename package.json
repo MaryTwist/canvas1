@@ -1,0 +1,17 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "Canvas app",
+  "main": "app.js",
+  "dependencies": {
+    "@types/jquery": "^2.0.41",
+    "jquery": "^3.2.1",
+    "typescript": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
