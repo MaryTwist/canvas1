@@ -35,12 +35,4 @@ $(document).ready(() => {
 
     var w1: Walker = new Walker(32, 32, 64, "#ef024b"); 
     w1.render(ctx);
-    /*
-
-    ctx.strokeStyle = "#ff0f02";
-    ctx.beginPath();
-    ctx.moveTo(20, 20);
-    ctx.lineTo(20 * 100, 20 * 100);
-    ctx.stroke();
-    */
 });
