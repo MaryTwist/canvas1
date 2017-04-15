@@ -2,6 +2,17 @@
     "compilerOptions": {
         "target": "es5",
         "removeComments": true,
-        "outFile": "index.js"
-    }
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        //"outFile": "scripts/index.js",
+        "outDir": "scripts/",
+        "module": "amd"
+    },
+    "files":[
+        "src/walker.ts",
+        "src/index.ts"
+    ]
 }
