@@ -8,6 +8,7 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         //"outFile": "scripts/index.js",
+        "watch": true,
         "outDir": "scripts/",
         "module": "amd"
     },

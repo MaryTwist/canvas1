@@ -7,7 +7,7 @@ $(document).ready(() => {
     canvas.width = 640;
     canvas.height = 480;
 
-    var w1: Walker = new Walker(32, 32, 64, 5, "#ef024b"); 
+    var w1: Walker = new Walker(32, 32, 64, 5, "#2f04ce"); 
 
     $(document).keydown(eventObject => w1.keyDown(eventObject));
     $(document).keyup(eventObject => w1.keyUp(eventObject));
